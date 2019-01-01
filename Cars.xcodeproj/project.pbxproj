@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		9F4F26DC21DAFE15009DED40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4F26DB21DAFE15009DED40 /* main.m */; };
+		9F4F26E421DAFECD009DED40 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4F26E321DAFECD009DED40 /* Car.m */; };
+		9F4F26E721DB014B009DED40 /* Toyota.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4F26E621DB014B009DED40 /* Toyota.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		9F4F26D821DAFE15009DED40 /* Cars */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Cars; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F4F26DB21DAFE15009DED40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F4F26E221DAFECD009DED40 /* Car.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		9F4F26E321DAFECD009DED40 /* Car.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		9F4F26E521DB014B009DED40 /* Toyota.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Toyota.h; sourceTree = "<group>"; };
+		9F4F26E621DB014B009DED40 /* Toyota.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Toyota.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				9F4F26DB21DAFE15009DED40 /* main.m */,
+				9F4F26E221DAFECD009DED40 /* Car.h */,
+				9F4F26E321DAFECD009DED40 /* Car.m */,
+				9F4F26E521DB014B009DED40 /* Toyota.h */,
+				9F4F26E621DB014B009DED40 /* Toyota.m */,
 			);
 			path = Cars;
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F4F26E721DB014B009DED40 /* Toyota.m in Sources */,
+				9F4F26E421DAFECD009DED40 /* Car.m in Sources */,
 				9F4F26DC21DAFE15009DED40 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
